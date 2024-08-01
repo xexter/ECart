@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 2vh 2vw;
+    max-width: 1200px;
+    margin: auto;
+  }
+  
+  .box {
+    border-radius: 0.5rem;
+    box-shadow: 0 0.2rem 1rem rgba(0, 0, 0, 0.1);
+    padding: 2vh 2vw;
+    margin: 0 1vw;
+    width: 30vw;
+    min-width: 300px;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .box {
+      width: 90vw;
+      margin-bottom: 2vh;
+    }
+  }
